@@ -20,3 +20,6 @@ Run first cell (!pip install --upgrade openai requests beautifulsoup4 selenium w
 
 3. **Configure API Keys:**
 In the second cell, replace 'placeholder' with your actual OpenAI API key.
+
+4. **Configure broswer path and chromedriver path:**
+In the `scrape_website` function, modify the `binary_location` to point to the location of a Chrome-based browser installed on your local machine. Also, update the `service` parameter with the correct path to the compatible ChromeDriver executable. This ensures the Selenium setup aligns with your local system configuration.
